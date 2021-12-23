@@ -1,0 +1,90 @@
+:root{
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Verydark: hsl(229, 23%, 23%);
+  --Darkgrayish: hsl(227, 10%, 46%);
+  --Darkgray: hsl(0, 0%, 59%);
+}
+
+body{
+  background-color: var(--Darkcyan);
+  /* background-image: url(../images/bg-pattern-top.svg) ; */
+  margin: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+h1, ul, p {
+  margin: 0;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+ text-align: center;
+ max-width: 350px;
+ height: 340px;
+ position: relative;
+ top: 120px;
+ left: 470px;
+ border-radius: 10px;
+ background-color: white;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ /* background-image: url(../images/bg-pattern-bottom.svg); 
+ background-image: url(../images/bg-pattern-top.svg);  */
+}
+
+.background-container{
+  background-image: url(../images/bg-pattern-card.svg); 
+
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+  height: 130px;
+}
+
+.background-container img {
+  margin-top: 80px;
+  border-radius:50%;
+  border: 5px solid white;
+
+}
+
+.perfil h2 {
+  display: inline;
+  font-size: 20px;
+  color: var(--Verydark);
+  padding: 10px;
+}
+
+.perfil span {
+  font-size:18px;
+  color: var(--Darkgrayish);
+}
+
+.perfil p{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: var(--Darkgrayish);
+}
+
+.info{
+  font-weight: 400;
+  text-align:left;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(235, 219, 219);
+}
+
+.info li {
+  font-family:  "Kumbh Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px
+}
+
+.info-ex{
+  display:inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--Darkgrayish);
+}
