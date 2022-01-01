@@ -1,0 +1,134 @@
+
+:root{
+  --Moderateviolet: hsl(263, 55%, 52%) ;
+  --Verygrayishblue: hsl(217, 19%, 35%);
+  --Veryblackishblue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(0, 0%, 81%);
+  --Lightgrayishblue: hsl(210, 46%, 95%);
+}
+
+
+body{
+  margin: 0px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: var(--Lightgrayishblue);
+  
+}
+h1,h2,h3,h4,h5,h6, ul, p {
+  margin: 0;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+img{
+  margin: 0;
+  height: 100%;
+  display:inline-block;
+ 
+}
+
+main{
+  max-width: 1050px;
+  height: 540px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr;
+
+  /* grid-template-columns: 3fr 6fr 3fr; */
+  gap: 20px;
+  
+ 
+}
+
+.container{
+  border-radius: 5px;
+  
+}
+
+.container-perfil {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.container-perfil img{
+
+  display: flex;
+  border-radius:50%;
+  border: 2px solid var(--Lightgray);
+
+}
+
+.container-bg1{
+  
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 15px;
+}
+.container-bg2{
+  background-color: var(--Verygrayishblue);
+  border-radius: 15px;
+  max-height: 295px;
+}
+.container-bg3{
+  background-color: var(--White);
+  border-radius: 15px;
+}
+.container-bg4{
+  background-color: var(--Veryblackishblue);
+  border-radius: 15px;
+}
+.container-bg5{
+  background-color: var(--White);
+  border-radius: 15px;
+}
+.container-name{
+
+  padding-left: 15px;
+}
+
+.name{
+  color: var(--White);
+  font: 500 18px "Barlow Semi Condensed";
+}
+.name2{
+  color: var(--Veryblackishblue);
+  font: 500 18px "Barlow Semi Condensed";
+}
+
+.varifiqued{
+  color: var(--Lightgray);
+  font: 500 15px "Barlow Semi Condensed";
+}
+.varifiqued2{
+  color: var(--Verygrayishblue);
+  font: 500 15px "Barlow Semi Condensed";
+}
+
+.title{
+  color: var(--Lightgrayishblue);
+  padding: 15px 15px  0px 15px;
+  font: 600 20px "Barlow Semi Condensed";
+}
+.title2{
+  color: var(--Veryblackishblu);
+  padding: 15px 15px  0px 15px;
+  font: 600 20px "Barlow Semi Condensed";
+}
+
+.text{
+  color: var(--Lightgray);
+  padding: 15px;
+  font: 500 15px "Barlow Semi Condensed";
+}
+.text2{
+  color: var(--Verygrayishblue);
+  padding: 15px;
+  font: 500 15px "Barlow Semi Condensed";
+}
