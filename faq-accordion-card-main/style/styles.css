@@ -1,0 +1,97 @@
+:root{
+  --Verydarkblue: hsl(238, 29%, 16%);
+--Softred: hsl(14, 88%, 65%);
+--Softviolet: hsl(273, 75%, 66%);
+--Softblue: hsl(240, 73%, 65%);
+--Verydarkgrayish: hsl(237, 12%, 33%);
+--Darkgrayish : hsl(240, 6%, 50%);
+--Lighgrayish : hsl(240, 5%, 91%);
+--white: #fff;
+}
+
+
+body{
+  margin: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: linear-gradient(to right, var(--Softviolet), var(--Softblue));
+  background-color: var(--Softviolet);
+}
+h1,h2,h3,h4,h5,h6, ul, p {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+.imagem{
+  margin: 0;
+  max-width: 100%;
+  display:inline-block;
+ padding-top: 50px;
+}
+
+.container{
+  border-radius: 29px;
+  max-width: 1050px;
+  height: 520px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 3fr 6fr 3fr; */
+background-color: var(--white);
+}
+
+.container2{
+  padding-right: 70px;
+}
+.container2 p{
+  display: none;
+}
+
+.container2 p.ativa{
+  display: block;
+}
+
+.title{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font: 700, 'Kumbh Sans';
+}
+
+.subtitle{
+  border:none;
+  background: none;
+  cursor: pointer;
+  font: 700 16px 'Kumbh Sans';
+  width: 100%;
+}
+
+.arrow{
+  margin: 0;
+  max-width: 100%;
+  display: inline;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.quest img:hover::after{
+  transform: rotate(180deg);
+}
+.quest{
+  padding-top: 10px;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.texto{
+  font: 400 14px 'Kumbh Sans';
+}
